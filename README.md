@@ -26,8 +26,20 @@ The program tracks your hands in real time, draws squares on your fingertips and
 ## How to run
 
 1. Install Python 3
-2. Install dependencies: `pip install opencv-python mediapipe pyautogui`
-3. Run: `python M.E.N.T.A.L..py`
+2. Install dependencies:
+
+```
+pip install opencv-python mediapipe pyautogui
+```
+
+3. Go into the project folder and run the program:
+
+```
+cd mental
+python M.E.N.T.A.L..py
+```
+
+Note: the file `hand_landmarker.task` (the MediaPipe hand model) must stay in the same folder as the program.
 
 ## Plans
 
